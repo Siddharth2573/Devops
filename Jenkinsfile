@@ -1,7 +1,7 @@
 //test comment
 node('master') {
     stage('Git Clone') {
-        git branch: 'master', changelog: true, url: 'https://github.com/sanusatyadarshi/nmit.git'
+        git branch: 'master', changelog: true, url: 'https://github.com/Siddharth2573/Devops.git'
         sh "ls"
     }
 
